@@ -10,6 +10,7 @@ A basic SASS baseline to start projects with. Really simple.
 * Tables
 * Form Elements
 * Some Variables & Mixins
+* screen.css file to see what is output - _(DO NOT EDIT OR SASS WILL OVERWRITE)_
 
 ## USAGE
 

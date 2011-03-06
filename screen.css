@@ -1,0 +1,400 @@
+/* DO NOT EDIT THE screen.css FILE. */
+/* SASS WILL MAKE THAT FOR YOU */
+/* A simple HTML5 Reset for SASS - Based on Eric Meyer's Reset */
+/* Last Updated: 2011-03-06 */
+/* Updated By: Michael Parenteau */
+/* Twitter: @parenteau */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+ins {
+  text-decoration: none;
+}
+
+mark {
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted inherit;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border color to what you want */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 10px 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/* BASE HTML STYLES */
+/* ===================================================== */
+html {
+  height: 100%;
+  padding-bottom: 1px;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: helvetica, arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* BASE TYPOGRAPHY STYLES */
+/* ===================================================== */
+h2, h3, h4, h5, h6, strong {
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 3.6em;
+  letter-spacing: -1px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.6em;
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+em {
+  font-style: italic;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  line-height: 1.8em;
+}
+
+blockquote {
+  font-family: georgia, serif;
+  border-left: 2px solid #cccccc;
+  padding: 10px 2em 10px 1em;
+  margin: 10px 10px 15px 1.4em;
+  font-style: italic;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+small {
+  font-size: 1em;
+}
+
+pre {
+  line-height: 1.5em;
+}
+pre code {
+  display: block;
+}
+
+code {
+  font-family: Inconsolata, Monaco, Consolas, "Lucida Console", "Courier New", Courier, monospace;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+li {
+  line-height: 1.5;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  margin-bottom: 15px;
+}
+ul li {
+  list-style-type: none;
+  border: none;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+ul li h1, ul li h2, ul li h3, ul li h4, ul li h5, ul li h6 {
+  margin-bottom: 0;
+}
+
+/* BASE LIST STYLES */
+/* ===================================================== */
+ul, ol {
+  list-style-position: inside;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+dl {
+  line-height: 1.8em;
+  margin-bottom: 15px;
+}
+dl dt {
+  font-weight: bold;
+}
+dl dd {
+  margin-bottom: 0;
+}
+
+dd {
+  margin-left: 0.5em;
+}
+
+li {
+  line-height: 1.5em;
+}
+
+ol ol, ol ul, ul ol, ul ul {
+  margin-left: 10px;
+}
+
+/* BASE FORM STYLES */
+/* ===================================================== */
+form {
+  padding: 20px;
+}
+form fieldset {
+  background: #ebebeb;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  position: relative;
+  display: block;
+}
+form fieldset legend {
+  font-size: 1.4em;
+  font-weight: normal;
+  color: #999999;
+}
+form fieldset input[type="text"] {
+  width: 96%;
+  max-width: 350px;
+}
+form label {
+  position: relative;
+  line-height: 18px;
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+form label.inline,
+form label.checkbox {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="select"],
+form input[type="search"] {
+  width: 98%;
+  max-width: 350px;
+  display: block;
+  font-size: 1.4em;
+  padding: 5px;
+  color: #666666;
+}
+form input[type="text"]:focus,
+form input[type="password"]:focus,
+form input[type="select"]:focus,
+form input[type="search"]:focus {
+  background-color: #faf4df;
+}
+form input[type="radio"] {
+  margin: 0 4px 3px 1px;
+}
+form input[type="checkbox"] {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+}
+form input[type="file"] {
+  margin: 0px 6px 3px 6px;
+}
+form input[type="submit"],
+form input[type="reset"],
+form input[type="button"] {
+  position: relative;
+}
+form select {
+  display: block;
+  margin: 0px;
+}
+form textarea {
+  width: 98%;
+  max-width: 600px;
+  line-height: 18px;
+  display: block;
+  overflow: auto;
+  border: 1px solid #cccccc;
+  font-size: 1.4em;
+  padding: 5px;
+  color: #666666;
+  min-height: 75px;
+}
+form textarea:focus {
+  background-color: #faf4df;
+}
+form div {
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+form div.inline.highlight {
+  background: #ebebeb;
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+form div.inline label.full-line {
+  width: 100%;
+  display: block;
+  float: none;
+  margin-bottom: 10px;
+}
+form div.inline label, form div.inline input, form div.inline select {
+  float: left;
+  margin-right: 10px;
+}
+form div.inline input[type="checkbox"] {
+  margin: 2px 0 0 10px;
+}
+form div.inline label.inline,
+form div.inline label.checkbox {
+  margin: 0 5px;
+}
+
+/* BASE TABLE STYLES */
+/* ===================================================== */
+table {
+  border-collapse: collapse;
+  border-top: solid 3px black;
+  position: relative;
+  margin-top: 18px;
+  width: 100%;
+}
+
+th, td {
+  line-height: 18px;
+  padding: 9px 18px 8px 0;
+}
+
+thead th, thead td {
+  padding-top: 7px;
+}
+
+tfoot th, tfoot td {
+  padding-bottom: 8px;
+}
+
+tbody th, tbody td,
+tfoot th, tfoot td {
+  border-top: solid 1px black;
+}
+
+th:first-child, td:first-child {
+  padding-left: 0;
+}
+
+th:last-child, td:last-child {
+  padding-right: 0;
+}
+
+tbody tr:nth-child(odd) th,
+tbody tr:nth-child(odd) td {
+  background: rgba(0, 0, 0, 0.035);
+}
+
+caption {
+  top: 5px;
+  margin-bottom: 18px;
+}
+
+tbody tr:nth-child(odd):hover th,
+tbody tr:nth-child(odd):hover td,
+tr:hover {
+  background: white !important;
+}
