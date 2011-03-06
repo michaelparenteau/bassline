@@ -1,0 +1,83 @@
+form
+  padding: 20px
+  fieldset
+    background: $fieldset-background-color
+    border: $fieldset-border-settings
+    padding: 10px
+    position: relative
+    display: block
+    legend
+      +text-options(1.4em, normal, #999)
+    input[type="text"]
+      width: 96%
+      max-width: 350px
+  label
+    position: relative
+    line-height: 18px
+    display: block
+    +text-options(1.3em, bold, "")
+  label.inline,
+  label.checkbox
+    +inline-block
+    vertical-align: middle
+    margin-right: 5px
+  input[type="text"],
+  input[type="password"],
+  input[type="select"],
+  input[type="search"]
+    width: 98%
+    max-width: 350px
+    display: block
+    font-size: 1.4em
+    padding: 5px
+    color: #666
+    &:focus
+      background-color: $form-field-focus-background-color
+  input[type="radio"]
+    margin: 0 4px 3px 1px
+  input[type="checkbox"]
+    +inline-block
+    vertical-align: middle
+  input[type="file"]
+    margin: 0px 6px 3px 6px
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"]
+    position: relative
+  select
+    display: block
+    margin: 0px
+  textarea
+    width: 98%
+    max-width: 600px
+    line-height: 18px
+    display: block
+    overflow: auto
+    border: $text-area-border-settings
+    font-size: 1.4em
+    padding: 5px
+    color: #666
+    min-height: 75px
+    &:focus
+      background-color: $form-field-focus-background-color
+  div
+    padding: 5px 0
+    margin-bottom: 10px
+  div.inline
+    &.highlight
+      background: $highlight-form-section-background
+      border: 1px solid $highlight-form-section-border-color
+      padding: 10px
+    label.full-line
+      width: 100%
+      display: block
+      float: none
+      margin-bottom: 10px
+    label, input, select
+      float: left
+      margin-right: 10px
+    input[type="checkbox"]
+      margin: 2px 0 0 10px
+    label.inline,
+    label.checkbox
+      margin: 0 5px
