@@ -1,0 +1,45 @@
+=box-gradient($top,$bottom)
+  background-image: -moz-linear-gradient(top, #{$top}, #{$bottom})
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #{$top}),color-stop(1, #{$bottom}))
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=’#{$top}’, EndColorStr=’#{$bottom}’)
+
+=box-gradient-ie67($top,$bottom)
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=’#{$top}’, EndColorStr=’#{$bottom}’)  
+
+=box-shadow($option,$x,$y,$spread,$color)
+  -moz-box-shadow: #{$option} #{$x} #{$y} #{$color}
+  -webkit-box-shadow: #{$option} #{$x} #{$y} #{$color}
+  box-shadow: #{$option} #{$x} #{$y} #{$color}
+
+=border-top-bottom-1px-solid($top-color, $bottom-color)
+  border-top: 1px solid #{$top-color}
+  border-bottom: 1px solid #{$bottom-color}
+
+=border-radius($size)
+  border-radius: #{$size}
+  -moz-border-radius: #{$size}
+  -webkit-border-radius: #{$size}
+
+=inline-block
+  display: inline-block
+  *display: inline
+  zoom: 1
+ 
+=dimensions($width, $height)
+  width: #{$width}
+  height: #{$height}
+  
+=absolute-right($right)
+  position: absolute
+  right: #{$right}
+
+=text-options($size, $weight, $color)
+  @if $color != ""
+    font-size: #{$size}
+    font-weight: #{$weight}
+    color: #{$color}
+  @else
+    font-size: #{$size}
+    font-weight: #{$weight}
+=letter-press($color)
+  text-shadow: 0px 1px 2px #{$color}
