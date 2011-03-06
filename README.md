@@ -23,11 +23,10 @@ A basic SASS baseline to start projects with. Really simple.
 * Make sure you define the _variables.sass file to your liking.
 * Be sure to look at the _mixins.sass file for what is available. This will change as time goes on.
 * Do NOT edit the screen.css file. When you `sass --watch stylesheets/bassline:stylesheets` this will override the file with sass changes
-* To output different styles of css file (ie: dev, production, or preffered formatting):
+* To output different styles of css file (ie: dev, production, or preffered formatting):   
 
-
-    there are 4 types of output: nested, expanded, compact, compressed
-    sass --watch stylesheets/bassline:stylesheets -t [output-style-here-minus-square-brackets]
+        // there are 4 types of output: nested, expanded, compact, compressed
+        sass --watch stylesheets/bassline:stylesheets -t [output-style-here-minus-square-brackets]
 
 ## Resources
 
