@@ -1,4 +1,4 @@
-# Bassline
+# Bassline - _NOTE: THIS IS NOT DONE AND IS UNUSABLE RIGHT NOW!!!_
 
 A basic SASS baseline to start projects with. Really simple.
 
