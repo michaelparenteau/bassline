@@ -26,6 +26,8 @@ A basic SASS baseline to start projects with. Really simple.
 * Make sure you define the _variables.sass file to your liking.
 * Be sure to look at the _mixins.sass file for what is available. This will change as time goes on.
 * Do NOT edit the screen.css file. When you `sass --watch stylesheets/bassline:stylesheets` this will override the file with sass changes
+* Use `<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>` in head for mobile content scaling
+* Use [html5shiv](http://code.google.com/p/html5shiv/) for adding html5 elements to the DOM
 * To output different styles of css file (ie: dev, production, or preffered formatting):   
 
         // there are 4 types of output: nested, expanded, compact, compressed
