@@ -10,6 +10,8 @@ A basic SASS baseline to start projects with. Really simple.
 * Tables
 * Form Elements
 * Some Variables & Mixins
+* Responsive 960 grid
+* @font-face - _ALL CODE IS COMMENTED OUT HERE, REMOVE IF YOU WILL NOT USE_
 * screen.css file to see what is output - _(DO NOT EDIT OR SASS WILL OVERWRITE)_
 
 ## USAGE
