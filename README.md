@@ -4,13 +4,13 @@ A basic SASS baseline to start projects with. Really simple.
 
 ## INCLUDES
 
-* Reset (Based on Eric Meyer's but with HTML5 elements included)
+* Reset (Based on Eric Meyer's but modified to include HTML5 elements)
 * Base (basic html + typography)
 * Lists
 * Tables
 * Form Elements
 * Some Variables & Mixins
-* Responsive 960 grid
+* Responsive 960 grid (Based on Skeleton.gs)
 * @font-face - _ALL CODE IS COMMENTED OUT HERE, REMOVE IF YOU WILL NOT USE_
 * screen.css file to see what is output - _(DO NOT EDIT OR SASS WILL OVERWRITE)_
 
@@ -39,3 +39,11 @@ A basic SASS baseline to start projects with. Really simple.
 ## Fin
 
 Bassline is a work in progress. It is good enough to start with for me & also allows for me to learn more about SASS. It is not a competitor or replacement of compass! Compass is a _very_ thorough framework. Bassline will change as I learn more. If you have good suggestions and would like to share them, please do!
+
+### Credit where credit is due.
+
+Big thanks to the following for the following...
+
+* [Eric Meyer](http://meyerweb.com/) - for an awesome starting reset
+* [Dave Gamache](http://www.davegamache.com/) - for [Skeleton.gs](http://www.getskeleton.com/) & for the basic grid base
+* [Baseline Grid](http://baselinecss.com/) - for great insight into basic html/css frameworks (with typography in mind), bassline employs much of what they have in their framework.
